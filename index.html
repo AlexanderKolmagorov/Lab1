@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class = "bar">
+
+        <div class ="leftbar">
+            <img src="pic.png" class="picture" alt=""/>
+            <span class = "bazetext">Базовая разметка</span>
+
+        </div>
+
+        <div class ="centerbar">
+
+        </div>
+
+        <div class = "rightbar">
+            <span class="citytext">г. Сургут</span>
+            <a class="numtext" href ="">+7(982)777-77-77</a>
+        </div>
+
+
+    </div>
+
+    <div class = "content">
+        <p>У страницы <b>всегда</b> есть элементы <b>html, head, body</b></p>
+        <p><b>Блочные элементы</b> - занимают всё пространство по ширине, поэтому всегда переносятся на новую строку</p>
+        <p><b>Инлайн элемент</b> - занимают столько места, сколько требует содержимое. Если в строке хватает места, то они размещаются на одной строке</p>
+        <p>Чаще всего используются следующие элементы:</p>
+        <p><span class="square">&lt;div&gt;&lt;/div&gt;</span> - Блочный элемент</p>
+        <p><span class="square">&lt;span&gt;&lt;/span&gt;</span> - Инлайн элемент<br></p>
+
+        <p> <span class="square">&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="square">&lt;h2&gt;&lt;/h2&gt;</span>
+            <span class="square">&lt;h3&gt;&lt;/h3&gt;</span>
+            <span class="square">&lt;h4&gt;&lt;/h4&gt;</span>
+            <span class="square">&lt;h5&gt;&lt;/h5&gt;</span> - Заголовки, блочные 	элементы
+        </p>
+
+        <p><span class="square">&lt;img src="ссылка на изображение"/&gt;</span> - Изображение, инлайн элемент</p>
+
+        <p><span class="square">&lt;label for="input-id"&gt;&lt;/label&gt;</span> - Текст подпись для элементов input. При клике на этот текст фокусируются сами инпуты.</p>
+
+        <p><span class="square">&lt;input type="text"/&gt;</span> Строка ввода текста, является инлайн элемент</p>
+
+        <p><span class="square">&lt;input type="radio"/&gt;</span> Радио кнопка, является инлайн элемент</p>
+
+        <p><span class="square">&lt;input type="checkbox"/&gt;</span> Чекбокс, является инлайн элемент</p>
+
+        <p><span class="square">&lt;a href="Ссылка"&gt;&lt;/a&gt;</span> Ссылка, инлайн элемент</p>
+
+        <p><span class="square">&lt;button&gt;&lt;/button&gt;</span> - Кнопка, инлайн элемент</p>
+
+        <p><span class="square">&lt;ul&gt;&lt;/ul&gt;</span>
+            <span class="square">&lt;ol&gt;&lt;/ol&gt;</span>
+            <span class="square">&lt;li&gt;&lt;/li&gt;</span>
+            - Список с маркерами, нумерованный список, элемент списка. Блочные элементы.
+        </p>
+
+        <p><span class="square">&lt;table&gt;&lt;/table&gt;</span>
+            <span class="square">&lt;thead&gt;&lt;/thead&gt;</span>
+            <span class="square">&lt;tbody&gt;&lt;/tbody&gt;</span>
+            <span class="square">&lt;tr&gt;&lt;/tr&gt;</span>
+            <span class="square">&lt;td&gt;&lt;/td&gt;</span>
+            - Таблица, заголовок таблицы, тело таблицы, строка и ячейка.
+            Ячейки вкладываются в строки, а строки вкладываются в заголовок и тело таблицы
+        </p>
+
+        <p><span class="square">&lt;form&gt;&lt;/form&gt;</span> - Форма. Служит для отправки данных на сервер. Включает в себя элементы input для ввода данных и кнопку button для отправки данных на сервер
+        </p>
+
+        <p><span class="square">&lt;link rel="stylesheet" href="url"/&gt;</span> - Присоединение к HTML файлу других документов, обычно это файлы CSS стилей
+        </p>
+
+        <p><span class="square">&lt;script src="url"&gt;код JS для выполнения &lt;/script&gt;</span> - Присоединение к HTML файлу файлов JS скриптов или выполнение JS кода</p>
+
+        <p><span class="square">&lt;p&gt;&lt;/p&gt;</span> - Элемент, представляющий собой абзац текста</p>
+
+    </div>
+
+    <div class="block">
+        <form>
+            <label>Фамилия<br></label>
+            <input class="block1" type="text"  placeholder="Введите вашу фамилию"><br>
+
+            <label>Имя<br></label>
+            <input class="block1" type="text"  placeholder="Введите ваше имя"/><br>
+
+            <label><input type="checkbox" id="one"> Согласен с условиями пользовательского соглашения</label>
+
+            <p><button class="send" onclick="func()">ОТПРАВИТЬ</button></p>
+        </form>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
+</body>
+</html>

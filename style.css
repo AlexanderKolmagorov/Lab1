@@ -1,0 +1,119 @@
+body {
+    padding : 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bar {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 31px rgba(0,0,0,0.5);
+}
+
+.leftbar {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.centerbar {
+    height : 100%;
+    width : 0.1%;
+    background : yellow;
+    display: inline-block;
+    float : left;
+}
+
+.rightbar {
+    height : 100%;
+    display : flex;
+    background : #5252e2;
+    align-items : center;
+}
+
+.picture {
+    height : 100%;
+    text-align : center;
+    vertical-align : center;
+}
+
+.citytext {
+    margin-left : 5%;
+    color : white;
+    font-size: 24px;
+}
+
+.numtext {
+    margin-left : 1%;
+    color : white;
+    font-size: 24px;
+}
+
+.numtext:hover {
+    color : yellow;
+}
+
+.bazetext {
+    margin-left : 2%;
+    font-size: 24px;
+}
+
+.content {
+    padding-top: 100px;
+    padding-left : 15px;
+}
+
+.square{
+    background-color:#F2C94C;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.block{
+    padding-left : 15px;
+    margin-top: 3em;
+    width: 20%;
+    line-height: 1;
+}
+
+.block1{
+    margin-top: 10px;
+    background: rgb(244,236,236);
+    border: 1px solid rgb(184,184,184);
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 1em;
+    outline:none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block1:focus{
+    border: 2px solid rgb(184,184,184);
+}
+
+::placeholder{
+    color: rgb(184,184,184);
+    font-size:20px;
+    text-align: center;
+}
+
+.send{
+    background: rgb(0,82,208);
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    margin-bottom: 3em;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
